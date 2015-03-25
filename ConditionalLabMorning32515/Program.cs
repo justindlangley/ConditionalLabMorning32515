@@ -26,12 +26,12 @@ namespace ConditionalLabMorning32515
             //Console.ReadLine();
             //    return;
             //}
-            
+
             //if (income > 20000)
             //{Console.WriteLine("Your total amount of tax = {0}", tax10);
             //Console.ReadLine();
             //return;}
-            
+
             //if (income > 50000)
             //{Console.WriteLine("Your total amount of tax = {0}", tax20);
             //Console.ReadLine();
@@ -52,10 +52,10 @@ namespace ConditionalLabMorning32515
 
             //TIME PROBLEM
 
-            var time = System.DateTime.Now;
+            //var time = System.DateTime.Now;
 
-            int myTime = (System.DateTime.Now.Second);
-            Console.WriteLine(myTime);
+            //int myTime = (System.DateTime.Now.Second);
+            //Console.WriteLine(myTime);
 
 
 
@@ -67,30 +67,64 @@ namespace ConditionalLabMorning32515
             //string userValue = Console.ReadLine();
             //var myTime = int.Parse(userValue);
 
-            if (myTime == 0)
-            { Console.WriteLine("The new minute is just beginning");
-              Console.ReadLine();
-            }
-            if (myTime == 15)
-            {
-                Console.WriteLine("We're one quarter done.");
-                Console.ReadLine();
-            }
-            if (myTime == 30)
-            {
-                Console.WriteLine("Halfway there.");
-                Console.ReadLine();
-            }
-            if (myTime == 45)
-            {
-                Console.WriteLine("Getting close to done");
-                Console.ReadLine();
-            }
-            else
-            { Console.WriteLine("Working on it...");
-              Console.ReadLine();
-            }
-            
+            //if (myTime == 0)
+            //{ Console.WriteLine("The new minute is just beginning");
+            //  Console.ReadLine();
+            //}
+            //if (myTime == 15)
+            //{
+            //    Console.WriteLine("We're one quarter done.");
+            //    Console.ReadLine();
+            //}
+            //if (myTime == 30)
+            //{
+            //    Console.WriteLine("Halfway there.");
+            //    Console.ReadLine();
+            //}
+            //if (myTime == 45)
+            //{
+            //    Console.WriteLine("Getting close to done");
+            //    Console.ReadLine();
+            //}
+            //else
+            //{ Console.WriteLine("Working on it...");
+            //  Console.ReadLine();
+            //}
+
+            //FIZZ BUZZ
+
+            //for (var x = 1; x <= 100; x++)
+            //{
+            //    Console.WriteLine(x);
+
+            //    if (x % 3 == 0)
+            //    { Console.WriteLine("Fizz"); }
+
+            //    if (x % 5 == 0)
+            //    { Console.WriteLine("Buzz"); }
+
+            //    if (x % 3 == 0 && x % 15 == 0)
+            //    { Console.WriteLine("FizzBuzz"); }
+            //}
+
+            //REVERSE
+
+            //string message = "This is a string";
+
+            //char[] array = message.ToArray();
+            //Array.Reverse(array);
+            //Console.WriteLine(array);
+
+            //EXTRA CREDIT
+
+
+            //char[] testarray1 = x.ToArray(testarray); 
+            //char[] testarray2 = y.ToArray();    
+            //char[] testarray3 = z.ToArray();
+            //Array.Reverse(testarray1; testarray2; testarray3);
+            //Console.WriteLine(testarray1);
+            //Console.WriteLine(testarray2);
+            //Console.WriteLine(testarray3);
 
 
 
@@ -98,13 +132,34 @@ namespace ConditionalLabMorning32515
 
 
 
+            //Console.ReadLine();
 
+            //Bill example
 
+            //foreach (var item in args)
+            //{
+            //    Console.WriteLine(item);
+            //    for (int i = 0; i < item.Length; i++)
+            //        Console.WriteLine("\t{0}", item[i]);
+            //}
 
+            //while (args.Length > 0)
+            //{
+            //    Console.WriteLine(args[0]);
+            //    int index = 0;
+            //    do
+            //    {
+            //        Console.WriteLine("\t{0}", args[0][index++]);
+            //    } while (index < args[0].Length);
+            //    args = args.Skip(1).ToArray();
+            //}
 
-
+            //skips first element of array and returns the rest of it
+            string[] multstrarray = {"Hi", "Bye", "Cya"};
+            Array.Reverse(multstrarray);
+            Console.WriteLine(multstrarray);
             Console.ReadLine();
-
         }
     }
 }
+    
