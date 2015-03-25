@@ -93,19 +93,25 @@ namespace ConditionalLabMorning32515
 
             //FIZZ BUZZ
 
-            //for (var x = 1; x <= 100; x++)
-            //{
-            //    Console.WriteLine(x);
+            for (var x = 1; x <= 100; x++)
+            {
+               
+                if (x % 3 == 0)
+                { Console.WriteLine("Fizz"); }
 
-            //    if (x % 3 == 0)
-            //    { Console.WriteLine("Fizz"); }
+                if (x % 5 == 0)
+                { Console.WriteLine("Buzz"); }
 
-            //    if (x % 5 == 0)
-            //    { Console.WriteLine("Buzz"); }
+                if (x % 3 == 0 && x % 15 == 0)
+                { 
+                    
+                    Console.WriteLine("FizzBuzz"); }
 
-            //    if (x % 3 == 0 && x % 15 == 0)
-            //    { Console.WriteLine("FizzBuzz"); }
-            //}
+                else
+                { Console.WriteLine(x); }
+                
+
+            }
 
             //REVERSE
 
@@ -158,20 +164,20 @@ namespace ConditionalLabMorning32515
 
             //EXTRA CREDIT
 
-            string one = "Hello";
-            string two = "Goodbye";
-            char[] array1 = one.ToCharArray();
-            char[] array2 = two.ToCharArray();
-            Array.Reverse(array1);
-            Array.Reverse(array2);
-            string revone = new string(array1);
-            string revtwo = new string(array2);
+            //string one = "Hello";
+            //string two = "Goodbye";
+            //char[] array1 = one.ToCharArray();
+            //char[] array2 = two.ToCharArray();
+            //Array.Reverse(array1);
+            //Array.Reverse(array2);
+            //string revone = new string(array1);
+            //string revtwo = new string(array2);
 
-            string [] lastarray = {revtwo, revone};
-            foreach (var item in lastarray)
-            {
-                Console.WriteLine(item);
-            }
+            //string [] lastarray = {revtwo, revone};
+            //foreach (var item in lastarray)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
 
 
