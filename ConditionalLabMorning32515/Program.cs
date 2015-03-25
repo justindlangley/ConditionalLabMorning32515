@@ -155,9 +155,44 @@ namespace ConditionalLabMorning32515
             //}
 
             //skips first element of array and returns the rest of it
-            string[] multstrarray = {"Hi", "Bye", "Cya"};
-            Array.Reverse(multstrarray);
-            Console.WriteLine(multstrarray);
+
+            //EXTRA CREDIT
+
+            string one = "Hello";
+            string two = "Goodbye";
+            char[] array1 = one.ToCharArray();
+            char[] array2 = two.ToCharArray();
+            Array.Reverse(array1);
+            Array.Reverse(array2);
+            string revone = new string(array1);
+            string revtwo = new string(array2);
+
+            string [] lastarray = {revtwo, revone};
+            foreach (var item in lastarray)
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+
+            //string[] multstrarray = {"Hi", "Bye", "Cya"};
+            //char[] array2 = multstrarray.ToCharArray();
+
+            //string newString = 
+
+
+
+            //foreach (string i in multstrarray)
+            //{
+            //    for (int j = 0; j <= i.Length - 1; j--)
+
+            //    //char[] array = message.ToArray()
+                
+            //        Console.WriteLine("{0}", "{1}", "{2}", multstrarray[j]);
+            //}
+
+            
             Console.ReadLine();
         }
     }
